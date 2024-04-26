@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+}
+
+html,body{
+    background: #fff !important;
+    color: black !important;
+    font-size: 16px;
+    font-family: Math;
+}
+
+.navbar {
+    background-color: #343333;
+    height: 120px;
+}
+
+.logo h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 600px;
+    color: white;
+}
+
+.navbar ul {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+.navbar li{
+    display: inline;
+    margin-left: 40px;
+}
+
+.navbar li a{
+    color: white;
+    font-size: 20px;
+}   
+
+.menu-content h2 {
+    margin: 30px 0 0 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.menu-content ul {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    font-size: 20px;
+}
+
+.special-content h2 {
+    margin: 130px 0 0 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.special-content ul {
+    position: absolute;
+    top: 360px;
+    left: 60px;
+    font-size: 20px;
+}
+
+.about-content h2 {
+    margin: 100px 0 0 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.about-content p{
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.contact-content h2 {
+    margin: 0 0 0 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.contact-content p{
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.form{
+    position: absolute;
+    top: 680px;
+    left: 20px;
+}
+
+#text, #email, #msg{
+    padding: 3px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.form button{
+    padding: 3px;
+    cursor: pointer;
+}
+
+.gallery-content h2 {
+    font-weight: 800;
+    position: absolute;
+    top: 900px;
+    left: 630px;
+    font-size: 30px;
+}
+
+.post-1 img {
+    position: absolute;
+    top: 980px;
+    left: 50px;
+}
+
+.post-2 img {
+    position: absolute;
+    top: 980px;
+    left: 370px;
+}
+
+.post-3 img {
+    position: absolute;
+    top: 980px;
+    left: 690px;
+}
+
+.post-4 img {
+    position: absolute;
+    top: 980px;
+    left: 1010px;
+}
+
+.post-5 img {
+    position: absolute;
+    top: 1300px;
+    left: 370px;
+}
+
+.post-6 img {
+    position: absolute;
+    top: 1300px;
+    left: 690px;
+}
+
+.monial h2 {
+    font-weight: 800;
+    position: absolute;
+    top: 1640px;
+    left: 610px;
+    font-size: 30px;
+}
+
+#em1 {
+    position: absolute;
+    top: 1700px;
+    left: 440px;
+    font-size: 20px;
+}
+
+#em2 {
+    position: absolute;
+    top: 1730px;
+    left: 670px;
+}
+
+#em3 {
+    position: absolute;
+    top: 1760px;
+    left: 440px;
+    font-size: 20px;
+}
+
+#em4 {
+    position: absolute;
+    top: 1800px;
+    left: 670px;
+}
+
+#em5 {
+    position: absolute;
+    top: 1840px;
+    left: 480px;
+    font-size: 20px;
+}
+
+#em6 {
+    position: absolute;
+    top: 1880px;
+    left: 650px;
+}
+
+#em7 {
+    position: absolute;
+    top: 1920px;
+    left: 480px;
+    font-size: 20px;
+}
+
+#em8 {
+    position: absolute;
+    top: 1960px;
+    left: 660px;
+}
+
+#em9 {
+    position: absolute;
+    top: 1990px;
+    left: 480px;
+    font-size: 20px;
+}
+
+#em10 {
+    position: absolute;
+    top: 2030px;
+    left: 660px;
+}
+
+#em11 {
+    position: absolute;
+    top: 2060px;
+    left: 440px;
+    font-size: 20px;
+}
+
+#em12 {
+    position: absolute;
+    top: 2100px;
+    left: 660px;
+}
+
+.foot {
+    background-color: #343333;
+    width: 100%;
+    position: absolute;
+    top: 2150px;
+}
+
+.foot p {
+    font-size: 20px;
+    color: white;
+    padding: 25px 10px;
+    text-align: center;
+}
+
+/* Now, Start Responsive Styling from here */
+
+@media screen and (max-width: 600px) {
+    
+    .navbar{
+        background-color: #343333;
+    }
+
+}
