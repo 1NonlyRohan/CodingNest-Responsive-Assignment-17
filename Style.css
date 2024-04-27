@@ -20,9 +20,7 @@ html,body{
 
 .logo h1 {
     font-size: 30px;
-    position: absolute;
-    top: 40px;
-    left: 600px;
+    padding: 35px 0px 0px 550px;
     color: white;
 }
 
@@ -49,27 +47,23 @@ html,body{
 }
 
 .menu-content ul {
-    position: absolute;
-    top: 200px;
-    left: 60px;
+    margin: 20px 0 0 60px;
     font-size: 20px;
 }
 
 .special-content h2 {
-    margin: 130px 0 0 20px;
+    margin: 30px 0 0 20px;
     font-size: 30px;
     font-weight: 800;
 }
 
 .special-content ul {
-    position: absolute;
-    top: 360px;
-    left: 60px;
+    margin: 20px 0 0 60px;
     font-size: 20px;
 }
 
 .about-content h2 {
-    margin: 100px 0 0 20px;
+    margin: 30px 0 0 20px;
     font-size: 30px;
     font-weight: 800;
 }
@@ -91,9 +85,7 @@ html,body{
 }
 
 .form{
-    position: absolute;
-    top: 680px;
-    left: 20px;
+    margin: 10px 0 0 20px;
 }
 
 #text, #email, #msg{
@@ -109,139 +101,93 @@ html,body{
 
 .gallery-content h2 {
     font-weight: 800;
-    position: absolute;
-    top: 900px;
-    left: 630px;
+    text-align: center;
+    margin: 30px 0 0 0 ;
     font-size: 30px;
 }
 
-.post-1 img {
-    position: absolute;
-    top: 980px;
-    left: 50px;
+.gallery-posts{
+    text-align: center;
 }
 
-.post-2 img {
-    position: absolute;
-    top: 980px;
-    left: 370px;
-}
-
-.post-3 img {
-    position: absolute;
-    top: 980px;
-    left: 690px;
-}
-
-.post-4 img {
-    position: absolute;
-    top: 980px;
-    left: 1010px;
-}
-
-.post-5 img {
-    position: absolute;
-    top: 1300px;
-    left: 370px;
-}
-
-.post-6 img {
-    position: absolute;
-    top: 1300px;
-    left: 690px;
+.gallery-posts img {
+    height: 300px;
+    width: 300px;
+    margin: 20px 10px 10px 10px;
 }
 
 .monial h2 {
+    text-align: center;
     font-weight: 800;
-    position: absolute;
-    top: 1640px;
-    left: 610px;
     font-size: 30px;
+    margin: 50px 0px 0px 0px;
 }
 
-#em1 {
-    position: absolute;
-    top: 1700px;
-    left: 440px;
-    font-size: 20px;
+.monial-1{
+    text-align: center;
+    margin: 20px 0 0 0;
 }
 
-#em2 {
-    position: absolute;
-    top: 1730px;
-    left: 670px;
+#em1{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
 }
 
-#em3 {
-    position: absolute;
-    top: 1760px;
-    left: 440px;
-    font-size: 20px;
+.monial-2{
+    text-align: center;
 }
 
-#em4 {
-    position: absolute;
-    top: 1800px;
-    left: 670px;
+#em2{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
 }
 
-#em5 {
-    position: absolute;
-    top: 1840px;
-    left: 480px;
-    font-size: 20px;
+.monial-3{
+    text-align: center;
 }
 
-#em6 {
-    position: absolute;
-    top: 1880px;
-    left: 650px;
+#em3{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
 }
 
-#em7 {
-    position: absolute;
-    top: 1920px;
-    left: 480px;
-    font-size: 20px;
+.monial-4{
+    text-align: center;
 }
 
-#em8 {
-    position: absolute;
-    top: 1960px;
-    left: 660px;
+#em4{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
 }
 
-#em9 {
-    position: absolute;
-    top: 1990px;
-    left: 480px;
-    font-size: 20px;
+.monial-5{
+    text-align: center;
 }
 
-#em10 {
-    position: absolute;
-    top: 2030px;
-    left: 660px;
+#em5{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
 }
 
-#em11 {
-    position: absolute;
-    top: 2060px;
-    left: 440px;
-    font-size: 20px;
+.monial-6{
+    text-align: center;
 }
 
-#em12 {
-    position: absolute;
-    top: 2100px;
-    left: 660px;
+#em6{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .foot {
     background-color: #343333;
     width: 100%;
-    position: absolute;
-    top: 2150px;
+    margin: 30px 0 0 0;
 }
 
 .foot p {
@@ -251,12 +197,21 @@ html,body{
     text-align: center;
 }
 
-/* Now, Start Responsive Styling from here */
+/* here, We Start Mobile Responsive Designs */
 
 @media screen and (max-width: 600px) {
-    
-    .navbar{
+
+    .navbar {
         background-color: #343333;
+        height: 500px;
+        width: 208%;
+    }
+
+    .logo h1 {
+        position: static;
+        text-align: center;
+        padding: 80px 0 0 0;
+        font-size: 50px;
     }
 
 }
