@@ -1,16 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 0;
-    text-decoration: none;
+    font-family: Math;
 }
 
-html,body{
-    background: #fff !important;
-    color: black !important;
-    font-size: 16px;
-    font-family: Math;
+body {
+    background-color: white !important;
 }
 
 .navbar {
@@ -20,25 +16,27 @@ html,body{
 
 .logo h1 {
     font-size: 30px;
-    padding: 35px 0px 0px 550px;
+    text-align: center;
+    padding: 35px 0 0 0;
     color: white;
 }
 
-.navbar ul {
+.nav-list {
     position: absolute;
     top: 40px;
     right: 30px;
 }
 
-.navbar li{
+.navbar li {
     display: inline;
     margin-left: 40px;
 }
 
-.navbar li a{
+.navbar li a {
     color: white;
     font-size: 20px;
-}   
+    text-decoration: none;
+}
 
 .menu-content h2 {
     margin: 30px 0 0 20px;
@@ -68,7 +66,7 @@ html,body{
     font-weight: 800;
 }
 
-.about-content p{
+.about-content p {
     padding: 20px 20px;
     font-size: 20px;
 }
@@ -79,22 +77,24 @@ html,body{
     font-weight: 800;
 }
 
-.contact-content p{
+.contact-content p {
     padding: 20px 20px;
     font-size: 20px;
 }
 
-.form{
+.form {
     margin: 10px 0 0 20px;
 }
 
-#text, #email, #msg{
+#text,
+#email,
+#msg {
     padding: 3px;
     border: 1px solid grey;
     border-radius: 3px;
 }
 
-.form button{
+.form button {
     padding: 3px;
     cursor: pointer;
 }
@@ -102,11 +102,11 @@ html,body{
 .gallery-content h2 {
     font-weight: 800;
     text-align: center;
-    margin: 30px 0 0 0 ;
+    margin: 30px 0 0 0;
     font-size: 30px;
 }
 
-.gallery-posts{
+.gallery-posts {
     text-align: center;
 }
 
@@ -123,62 +123,62 @@ html,body{
     margin: 50px 0px 0px 0px;
 }
 
-.monial-1{
+.monial-1 {
     text-align: center;
     margin: 20px 0 0 0;
 }
 
-#em1{
+#em1 {
     display: block;
     text-align: center;
     padding: 10px 0;
 }
 
-.monial-2{
+.monial-2 {
     text-align: center;
 }
 
-#em2{
+#em2 {
     display: block;
     text-align: center;
     padding: 10px 0;
 }
 
-.monial-3{
+.monial-3 {
     text-align: center;
 }
 
-#em3{
+#em3 {
     display: block;
     text-align: center;
     padding: 10px 0;
 }
 
-.monial-4{
+.monial-4 {
     text-align: center;
 }
 
-#em4{
+#em4 {
     display: block;
     text-align: center;
     padding: 10px 0;
 }
 
-.monial-5{
+.monial-5 {
     text-align: center;
 }
 
-#em5{
+#em5 {
     display: block;
     text-align: center;
     padding: 10px 0;
 }
 
-.monial-6{
+.monial-6 {
     text-align: center;
 }
 
-#em6{
+#em6 {
     display: block;
     text-align: center;
     padding: 10px 0;
@@ -199,19 +199,39 @@ html,body{
 
 /* here, We Start Mobile Responsive Designs */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
 
-    .navbar {
+    .navbar{
         background-color: #343333;
-        height: 500px;
-        width: 208%;
+        height: 400px;
     }
 
-    .logo h1 {
-        position: static;
+    .logo h1{
         text-align: center;
-        padding: 80px 0 0 0;
-        font-size: 50px;
+    }
+
+    .nav-list ul{
+        margin: 30px 90px;
+        position: static;
+    }
+
+    .nav-list ul li a{
+        position: static;
+        display: block;
+        text-align: center;
+        padding: 8px 0;
+    }
+
+    #text, #email{
+        width: 92%;
+    }
+
+    .form textarea{
+        width: 90%;
+    }
+
+    .form button{
+        width: 70%;
     }
 
 }
